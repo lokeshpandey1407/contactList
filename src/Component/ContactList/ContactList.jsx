@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React from "react";
 import DataTable from "react-data-table-component";
 import styles from "./ContactList.module.css";
 import { useState } from "react";
