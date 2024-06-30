@@ -1,0 +1,72 @@
+.addEditForm {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  border: 1px solid black;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1rem;
+  width: 350px;
+  z-index: 20;
+}
+.error {
+  font-size: 0.8rem;
+  color: red;
+}
+.formGroup {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.5rem;
+}
+.formGroup > label {
+  font-size: 0.9rem;
+}
+.formGroup > input {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid black;
+}
+.btn {
+  padding: 0.4rem 1rem;
+  cursor: pointer;
+  transition: all 300ms ease-in-out;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+}
+.btn:disabled {
+  background-color: grey;
+}
+.btn:hover {
+  transform: translate(-2px, -2px);
+}
+.saveBtn {
+  align-self: center;
+  background-color: #479f47;
+}
+.cancelBtn {
+  align-self: center;
+  background-color: #e44f4f;
+}
+
+.closeBtn {
+  position: fixed;
+  top: 5px;
+  right: 5px;
+  background-color: transparent;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  padding: 0.5rem;
+  transition: all 300ms ease-in-out;
+}
+.closeBtn:hover {
+  background-color: #e44f4f;
+  color: #fff;
+}
